@@ -27,4 +27,8 @@ router.post('/pessoas/:id/restaura', PessoaController.restauraPessoa)
 
 router.get('/pessoas/:estudanteId/matricula', PessoaController.pegaMatricula)
 
+router.get('/pessoas/matricula/:turmaId/confirmadas', PessoaController.pegaMatriculasPorTurma)
+
+router.get('/pessoas/matricula/lotada', PessoaController.pegaTurmasLotadas)
+
 module.exports = router
