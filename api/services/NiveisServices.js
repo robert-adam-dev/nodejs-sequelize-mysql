@@ -1,10 +1,9 @@
 const Services = require('./Services')
 
 class NiveisServices extends Services {
-    constructor(){
-        super('Niveis')
-    }
-    // Métodos específicos do controlador de níveis
+  constructor(){
+    super('Niveis')
+  }
 }
 
 module.exports = NiveisServices
